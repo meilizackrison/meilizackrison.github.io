@@ -6,6 +6,7 @@ nav ul {
 header, footer {
   background-color: darkolivegreen;
   color: cornsilk;
+  list-style-type: circle;
 }
 
 header a, footer a {
@@ -29,4 +30,5 @@ tbody th {
 
 .favorite {
   background-color: darkolivegreen;
+  color: cornsilk
 }
