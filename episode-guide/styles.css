@@ -2,3 +2,8 @@
 nav ul {
   list-style-type: none;
 }
+
+header, footer {
+  background-color: darkolivegreen;
+  color: bisque;
+}
