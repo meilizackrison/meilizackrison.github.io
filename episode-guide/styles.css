@@ -24,3 +24,7 @@ thead th {
 tbody th {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.favorite {
+  background-color: darkolivegreen;
+}
