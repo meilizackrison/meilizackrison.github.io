@@ -17,3 +17,10 @@ footer a:focus {
   color:goldenrod
 }
 
+thead th {
+  font-weight: bold;
+}
+
+tbody th {
+  font-family: Arial, Helvetica, sans-serif;
+}
