@@ -6,6 +6,7 @@ nav ul {
 header, footer {
   background-color: darkolivegreen;
   color: cornsilk;
+  /* this rule gets beat out by the more specific nav ul rule */
   list-style-type: circle;
 }
 
