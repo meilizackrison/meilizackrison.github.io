@@ -5,5 +5,15 @@ nav ul {
 
 header, footer {
   background-color: darkolivegreen;
-  color: bisque;
+  color: cornsilk;
 }
+
+header a, footer a {
+  color: cornsilk;
+}
+
+header a:hover, 
+footer a:focus {
+  color:goldenrod
+}
+
