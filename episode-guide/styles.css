@@ -12,8 +12,8 @@ header a, footer a {
   color: cornsilk;
 }
 
-header a:hover, 
-footer a:focus {
+header a:hover, header a:focus,
+footer a:focus, footer a:hover {
   color:goldenrod
 }
 
