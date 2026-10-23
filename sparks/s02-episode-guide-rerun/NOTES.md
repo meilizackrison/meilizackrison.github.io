@@ -22,12 +22,16 @@ The episode information can be derived from my archived over the garden wall epi
 
 Propose a plan" 
 
-This prompt did not work? It did not propose a plan to make the episode guide, it simply said "Plan
-After you approve, inspect the existing Spark conventions and your archived episode guide to confirm the episode titles and songs.
-Create sparks/s02-episode-guide-rerun/index.html with a captioned episode table, scoped header cells, one <h1>, and header, main, and footer landmarks.
-Create a separate CSS file in that folder and link it from the page.
-Add the new Spark link under “Sparks” in the hub index.html.
-Check the HTML for validity and review the page’s keyboard and responsive basics." 
+This prompt did not work? It did not propose a plan to make the episode guide, it simply said gave me steps for how sparks work in general. So then I said "No, propose a plan for how you would create this episode guide."
+
+Then it said: "Use the archived episode guide as the source for the episode order, titles, and main sung songs, so the information matches your existing work.
+Build the page in sparks/s02-episode-guide-rerun/index.html with a page title, one <h1>, and header, main, and footer landmarks.
+Put the episode details in a table with columns for episode number, episode title, and main sung song. Add a descriptive <caption> and use <th scope="col"> for the column headings.
+Add a separate CSS file in the same folder for readable spacing, table styling, and small-screen usability.
+Link the page from the hub under “Sparks,” then validate the HTML and check that the table remains usable on narrow screens.
+Leave NOTES.md to you to write in your own words. Committing, pushing, and checking the live page are also steps for you to complete."
+
+
 
 
 

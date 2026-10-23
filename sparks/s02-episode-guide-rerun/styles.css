@@ -1,0 +1,114 @@
+:root {
+  color-scheme: light;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.6;
+  color: #263323;
+  background: #f5f0df;
+}
+
+body {
+  max-width: 54rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+header {
+  padding: 2rem;
+  color: #fff9e8;
+  background: #34482f;
+  border-radius: 1rem 1rem 0 0;
+}
+
+h1 {
+  max-width: 18ch;
+  margin: 0;
+  font-size: clamp(2rem, 7vw, 3.5rem);
+  line-height: 1.1;
+}
+
+header p {
+  max-width: 48ch;
+}
+
+.eyebrow {
+  margin-top: 0;
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+main {
+  padding: 1.5rem;
+  background: #fffdf6;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+caption {
+  padding: 0 0 1rem;
+  color: #34482f;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 0.8rem;
+  border-bottom: 1px solid #c9c5b6;
+}
+
+thead {
+  color: #fff9e8;
+  background: #34482f;
+}
+
+tbody th {
+  width: 5rem;
+}
+
+tbody tr:nth-child(even) {
+  background: #f5f0df;
+}
+
+footer {
+  padding: 1rem 1.5rem;
+  background: #e6dfc9;
+  border-radius: 0 0 1rem 1rem;
+}
+
+a {
+  color: #263323;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.2em;
+}
+
+a:focus-visible {
+  outline: 3px solid #34482f;
+  outline-offset: 3px;
+}
+
+@media (max-width: 36rem) {
+  body {
+    padding: 1rem 0.5rem;
+  }
+
+  header,
+  main,
+  footer {
+    padding: 1.25rem 1rem;
+  }
+
+  table {
+    font-size: 0.9rem;
+  }
+
+  th,
+  td {
+    padding: 0.65rem 0.45rem;
+  }
+}
