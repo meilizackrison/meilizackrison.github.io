@@ -41,8 +41,8 @@ a {
 }
 
 .masthead {
-  background-color: var(--highlight);
-  border-bottom: 0.25rem solid var(--page-bg);
+  background-color: var(--accent);
+  border-bottom: 0.25rem solid var(--highlight);
 }
 
 .header-inner {
@@ -56,14 +56,14 @@ a {
   font-size: 0.82rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--page-bg);
 }
 
 h1 {
   margin-bottom: 0;
   font-size: clamp(2.5rem, 4vw, 4.25rem);
   line-height: 1.08;
-  color: var(--text);
+  color: var(--page-bg);
 }
 
 .page-shell {
