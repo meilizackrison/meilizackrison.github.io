@@ -41,7 +41,7 @@ a {
 }
 
 .masthead {
-  background-color: #779EB7;
+  background-color: var(--highlight);
   border-bottom: 0.25rem solid var(--accent);
 }
 
