@@ -27,9 +27,11 @@ Propose four colors, with each role and its contrast ratios, before you write an
 
 The agent did go ahead writing code. This included rewriting my notes section which I thought it wasn't able to do? 
 
+Ultimately it did get its act together. 
+
 
 ## Accepted / changed / rejected
-What I kept from the agent, what I changed, and why.
+
 
 ## Dig deeper
 One thing I looked up (MDN link) and what I learned.
