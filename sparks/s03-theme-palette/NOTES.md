@@ -27,14 +27,14 @@ Propose four colors, with each role and its contrast ratios, before you write an
 
 The agent did go ahead writing code. This included rewriting my notes section which I thought it wasn't able to do? 
 
-Ultimately it did get its act together. 
+Ultimately it did get its act together after it was goaded into it.
 
 
 ## Accepted / changed / rejected
-
+I hated the color palette it gave me and just made it myself in Coolers. This is the control freak in me perhaps. I also decided that I hated its written copy so I changed that as well. I then reorganized the sections so the contrast check immediately followed the color tiles and the sample text was  below it. 
 
 ## Dig deeper
-One thing I looked up (MDN link) and what I learned.
+I dug into color accesibility and got this cool line "It is good to have a cool design on your website, but the design is worthless if your users can't read your content." Then it went on to describe how only purely decorative text can have bad contrast, which then begs the question how is text decorative? https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Perceivable/Color_contrast
 
 ## Open questions
-What I still don't fully understand.
+How did the AI manage to edit my notes if it isn't supposed to? Was that a prompt problem or a glitch?
