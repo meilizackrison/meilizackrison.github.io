@@ -32,14 +32,13 @@ Link the page from the hub under “Sparks,” then validate the HTML and check 
 Leave NOTES.md to you to write in your own words. Committing, pushing, and checking the live page are also steps for you to complete."
 
 
-
-
-
 ## Accepted / changed / rejected
-What I kept from the agent, what I changed, and why.
+It generated some written copy for me that I didn't like the look of so I changed it to be more in my voice. 
 
 ## Dig deeper
-One thing I looked up (MDN link) and what I learned.
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility
+
+I dug deeper into table accesibility and I like how they discussed styling as a way you can make something more accesible. Their example was styling table headers so they appear on each page, not just at the very top, and it's always interesting to think of accesibility in a written copy way rather than only in an html way. It's also nice to styling not be the villain in the accesibility conversation. 
 
 ## Open questions
-What I still don't fully understand.
+I quite frankly have no idea how sizing for different screens works. 
