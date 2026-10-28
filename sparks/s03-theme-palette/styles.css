@@ -42,7 +42,7 @@ a {
 }
 
 .masthead {
-  background: linear-gradient(135deg, var(--page-bg) 0%, var(--soft-gradient) 100%);
+  background-color: #779EB7;
   border-bottom: 0.25rem solid var(--accent);
 }
 
