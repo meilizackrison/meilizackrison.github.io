@@ -42,7 +42,7 @@ a {
 
 .masthead {
   background-color: var(--highlight);
-  border-bottom: 0.25rem solid var(--accent);
+  border-bottom: 0.25rem solid var(--page-bg);
 }
 
 .header-inner {
