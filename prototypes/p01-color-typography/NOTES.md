@@ -4,42 +4,22 @@
 The first page is a webpage for the Old English poem "The Wanderer" for people who are trying to read it in the original Old English. The second page is a holiday gift guide for people looking for Christmas presents for their incredibly cool college age daughters. 
 
 ## AI use
+This was my first prompt: This is my class assignment: Build a small three-page site: two pages in very different themes, each with its own colors and type, and a homepage that explains why each choice fits its page.
 
-The site
 
- prototypes/p01-color-typography/ has three pages: index.html (the homepage) and two themed pages, all new, not copies of an earlier Spark.
- A nav on every page links all three pages.
- The homepage explains each themed page’s palette and fonts, with a reason from the theme for each choice, and shows each page’s contrast results.
+I want the first wepbage to showcase the Old English poem "The Wanderer" for people who are trying to read it in the original Old English. The second page is a holiday gift guide for people looking for Christmas presents for their incredibly cool college age daughters. 
 
-Color, on each themed page
 
- Its own palette of 3–5 colors in one format (hex, rgb(), or hsl()), used consistently.
- At least one background beyond plain white: a color, a gradient, or an image with a fallback color.
- Every text/background pair meets WCAG AA contrast (4.5:1 for body text, 3:1 for large text), checked with WebAIM’s contrast checker. The results are on the homepage.
- Color never carries meaning alone: links are distinguishable without color (underline, or similar).
+Propose a plan for executing this!
 
-Typography, on each themed page
-
- One or two web fonts of its own, each with a fallback stack ending in a generic family (serif, sans-serif), loading only the weights it uses.
- Font sizes in rem (or em where it’s relative to the parent on purpose). No px font sizes.
- Body line-height of at least 1.5, and line length kept readable (about 45–75 characters).
- A heading hierarchy that’s clear from the type alone, in a logical order (h1 → h2 → h3).
-
-Every Prototype (all three pages)
-
- Landmarks (header, main, footer), and CSS in separate files.
- Passes the W3C validator with no errors.
- Focus is visible on every link.
- Readable at 200% zoom (Cmd/Ctrl +): nothing cut off, overlapping, or hidden.
- Linked from your hub under Prototypes. Live pages load.
- NOTES.md covers every section, in your own words. Meaningful commits.
+Then I asked to start with "The Wanderer" page with a proposed color palette and typography. Once I read the proposal I asked it to proceed with building, however it built all three web pages not just the wanderer page. I did then go one by one and get proposals for each page. 
 
 
 ## Accepted / changed / rejected
-What I kept from the agent, what I changed, and why.
+I rejected its old english translation of "The Wanderer" and replaced it with Roy M. Liuzza's translation. I also got rid of elements it created and didn't use (a color on the Wanderer palette) and then also changed the color palette for the gift guide. 
 
 ## Dig deeper
-One thing I looked up (MDN link) and what I learned.
+I looked up box sizing using https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-sizing. I learned that you can either make the box 100 px wide including padding using boarder box or make it 100 px wide but wider with padding using content box. 
 
 ## Open questions
-What I still don't fully understand.
+How space works on this? When I got rid of one element on the homepage other elements shifted to take its place but when I did that on the Wanderer page it did not fill to expand the empty space. 
