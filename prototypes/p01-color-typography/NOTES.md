@@ -1,7 +1,7 @@
 # NOTES — <two contrasting sites>
 
 ## Intent
-What I built, for whom, and why (2–3 sentences).
+The first page is a webpage for the Old English poem "The Wanderer" for people who are trying to read it in the original Old English. The second page is a holiday gift guide for people looking for Christmas presents for their incredibly cool college age daughters. 
 
 ## AI use
 
