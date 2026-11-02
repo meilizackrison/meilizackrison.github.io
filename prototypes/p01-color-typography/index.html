@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Color &amp; Typography Prototype</title>
+    <meta name="description" content="Homepage explaining two theme pages built for the color and typography prototype.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="inner">
+        <a class="brand" href="index.html">DIGHT 250</a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="index.html" aria-current="page">Home</a>
+          <a href="wanderer.html">The Wanderer</a>
+          <a href="gift-guide.html">Gift Guide</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="site-main">
+      <section class="page-intro" aria-labelledby="home-title">
+        <h1 id="home-title">Color and Typography Story</h1>
+        <p>
+          Two pages, two visual worlds. One feels like a manuscript from long ago; the other feels bright,
+          warm, and festive. Together they show how color and typography shape the tone of a page.
+        </p>
+      </section>
+
+      <section class="homepage-section" aria-labelledby="wanderer-theme-title">
+        <h2 id="wanderer-theme-title">The Wanderer page</h2>
+        <div class="swatch-grid">
+          <article class="swatch-card">
+            <div class="swatch" style="background: #F3E7D3;"></div>
+            <div class="swatch-meta">
+              <h3>Paper</h3>
+              <p>#F3E7D3</p>
+            </div>
+          </article>
+          <article class="swatch-card">
+            <div class="swatch" style="background: #17130F;"></div>
+            <div class="swatch-meta">
+              <h3>Ink</h3>
+              <p>#17130F</p>
+            </div>
+          </article>
+          <article class="swatch-card">
+            <div class="swatch" style="background: #6A493A;"></div>
+            <div class="swatch-meta">
+              <h3>Border</h3>
+              <p>#6A493A</p>
+            </div>
+          </article>
+          <article class="swatch-card">
+            <div class="swatch" style="background: #5E6A52;"></div>
+            <div class="swatch-meta">
+              <h3>Accent</h3>
+              <p>#5E6A52</p>
+            </div>
+          </article>
+        </div>
+
+        <ul class="contrast-list" aria-label="Wanderer typography choices">
+          <li><strong>Body text:</strong> Cormorant Garamond, Georgia, serif</li>
+          <li><strong>Headings:</strong> Cinzel, Georgia, serif</li>
+          <li><strong>Use:</strong> serif pairing for a literary, manuscript-like feeling</li>
+        </ul>
+
+        <div class="contrast-list" aria-label="Wanderer contrast checks">
+          <div class="contrast-item">
+            <span>Body text</span>
+            <span class="contrast-sample" style="background: #F3E7D3; color: #17130F;">#17130F on #F3E7D3</span>
+          </div>
+          <div class="contrast-item">
+            <span>Heading text</span>
+            <span class="contrast-sample" style="background: #F3E7D3; color: #2B1F1A;">#2B1F1A on #F3E7D3</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="homepage-section" aria-labelledby="gift-theme-title">
+        <h2 id="gift-theme-title">Gift Guide page</h2>
+        <div class="swatch-grid">
+          <article class="swatch-card">
+            <div class="swatch" style="background: #FFFAF7;"></div>
+            <div class="swatch-meta">
+              <h3>Paper</h3>
+              <p>#FFFAF7</p>
+            </div>
+          </article>
+          <article class="swatch-card">
+            <div class="swatch" style="background: #D97A93;"></div>
+            <div class="swatch-meta">
+              <h3>Pink</h3>
+              <p>#D97A93</p>
+            </div>
+          </article>
+          <article class="swatch-card">
+            <div class="swatch" style="background: #234D42;"></div>
+            <div class="swatch-meta">
+              <h3>Evergreen</h3>
+              <p>#234D42</p>
+            </div>
+          </article>
+          <article class="swatch-card">
+            <div class="swatch" style="background: #F3D7DF;"></div>
+            <div class="swatch-meta">
+              <h3>Blush</h3>
+              <p>#F3D7DF</p>
+            </div>
+          </article>
+        </div>
+
+        <ul class="contrast-list" aria-label="Gift guide typography choices">
+          <li><strong>Body text:</strong> Source Sans 3, Arial, sans-serif</li>
+          <li><strong>Headings:</strong> Playfair Display, Georgia, serif</li>
+          <li><strong>Use:</strong> clean body text with a more elevated festive headline style</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="inner">
+        <p>Two themes, one design lesson: color and type set the mood before a single word is read.</p>
+      </div>
+    </footer>
+  </body>
+</html>

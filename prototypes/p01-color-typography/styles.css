@@ -1,0 +1,428 @@
+:root {
+  --wanderer-bg: #f3e7d3;
+  --wanderer-panel: #e9dcc4;
+  --wanderer-ink: #17130f;
+  --wanderer-heading: #2b1f1a;
+  --wanderer-border: #6a493a;
+  --wanderer-accent: #5e6a52;
+  --wanderer-gold: #a77a38;
+  --gift-bg: #fffaf7;
+  --gift-rose: #d97a93;
+  --gift-pink: #f3d7df;
+  --gift-forest: #234d42;
+  --gift-forest-soft: #3d6b5a;
+  --gift-card: #f9edf2;
+  --gift-ink: #1f2f2a;
+  --neutral: #f7f3ee;
+  --shadow: rgba(23, 19, 15, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  line-height: 1.7;
+  color: var(--wanderer-ink);
+  background: var(--wanderer-bg);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: inherit;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 0.2rem solid currentColor;
+  outline-offset: 0.2rem;
+}
+
+.site-header {
+  background: linear-gradient(180deg, rgba(43, 31, 26, 0.98), rgba(23, 19, 15, 0.96));
+  color: #fdfaf4;
+  border-bottom: 0.2rem solid var(--wanderer-gold);
+}
+
+.site-header .inner,
+.site-main,
+.site-footer .inner {
+  width: min(72rem, calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.site-header .inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.25rem 0;
+}
+
+.brand {
+  text-decoration: none;
+  font-family: "Cinzel", Georgia, serif;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+}
+
+.site-nav a {
+  color: #f7efe3;
+  text-decoration: none;
+  border-bottom: 0.08rem solid transparent;
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.site-nav a:hover,
+.site-nav a:focus-visible {
+  border-color: currentColor;
+}
+
+.site-main {
+  padding: 2.5rem 0 4rem;
+}
+
+.page-intro,
+.info-panel,
+.poem-block,
+.homepage-section,
+.promo-card,
+.gift-list,
+.cta {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(106, 73, 58, 0.28);
+  border-radius: 1rem;
+  box-shadow: none;
+}
+
+.page-intro {
+  padding: 2rem 2rem 1.5rem;
+}
+
+.page-intro h1,
+.homepage-section h2,
+.poem-block h2,
+.gift-header h2,
+.info-panel h2 {
+  font-family: "Cinzel", Georgia, serif;
+  letter-spacing: 0.04em;
+  color: var(--wanderer-heading);
+  margin-top: 0;
+}
+
+.page-intro h1 {
+  font-size: clamp(2.6rem, 4vw, 4.6rem);
+  line-height: 1.08;
+  margin-bottom: 0.8rem;
+}
+
+.page-intro p {
+  max-width: 56ch;
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.page-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  min-height: 28rem;
+}
+
+.poem-block {
+  padding: 1.5rem 1.5rem 1.2rem;
+  background: rgba(255, 255, 255, 0.08);
+  min-height: 100%;
+}
+
+.poem-block h2 {
+  font-size: clamp(1.5rem, 2vw, 2.2rem);
+  margin-bottom: 1rem;
+}
+
+.poem-pair {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.poem-block .label {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+  background: rgba(94, 106, 82, 0.12);
+  color: var(--wanderer-accent);
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+
+.poem {
+  margin: 0;
+  font-size: clamp(1.5rem, 2vw, 2.1rem);
+  line-height: 1.55;
+  color: var(--wanderer-ink);
+  border-right: 0.08rem solid rgba(106, 73, 58, 0.35);
+  padding-right: 1rem;
+}
+
+.poem p {
+  margin: 0 0 0.8rem;
+}
+
+.translation {
+  margin: 0;
+  padding: 0.4rem 0 0;
+  font-size: clamp(1.5rem, 2vw, 2.1rem);
+  line-height: 1.55;
+  color: var(--wanderer-heading);
+}
+
+.translation p {
+  margin: 0 0 0.8rem;
+}
+
+.info-panel {
+  padding: 1.4rem 1.2rem;
+  background: var(--wanderer-panel);
+}
+
+.info-panel h2 {
+  font-size: 1.45rem;
+  margin-bottom: 0.75rem;
+}
+
+.info-panel ul {
+  margin: 0;
+  padding-left: 1.1rem;
+  font-size: 1.08rem;
+}
+
+.info-panel li + li {
+  margin-top: 0.7rem;
+}
+
+.homepage-section {
+  margin-top: 2rem;
+  padding: 1.8rem 1.5rem;
+}
+
+.homepage-section h2 {
+  font-size: clamp(1.7rem, 2vw, 2.2rem);
+  margin-bottom: 1rem;
+}
+
+.swatch-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.swatch-card {
+  border: 1px solid rgba(23, 19, 15, 0.15);
+  border-radius: 1rem;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.swatch {
+  min-height: 8rem;
+}
+
+.swatch-meta {
+  padding: 0.9rem 1rem 1rem;
+}
+
+.swatch-meta h3 {
+  margin: 0 0 0.35rem;
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 1rem;
+}
+
+.swatch-meta p {
+  margin: 0;
+  color: var(--wanderer-heading);
+  font-size: 1rem;
+}
+
+.contrast-list {
+  display: grid;
+  gap: 0.9rem;
+  margin: 1rem 0 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.contrast-list li {
+  padding: 0.75rem 1rem;
+  border: 1px solid rgba(23, 19, 15, 0.14);
+  border-radius: 0.75rem;
+  background: rgba(255, 255, 255, 0.12);
+  font-size: 1.06rem;
+}
+
+.contrast-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.8rem 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(23, 19, 15, 0.14);
+  background: rgba(255, 255, 255, 0.12);
+  font-size: 1.06rem;
+}
+
+.contrast-sample {
+  display: inline-block;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.35rem;
+  font-family: "Cinzel", Georgia, serif;
+  font-weight: 600;
+}
+
+.gift-body {
+  background: var(--gift-bg);
+  color: var(--gift-ink);
+  font-family: "Source Sans 3", Arial, sans-serif;
+}
+
+.gift-body h2,
+.gift-body h3,
+.gift-body .brand {
+  font-family: "Playfair Display", Georgia, serif;
+}
+
+.gift-header {
+  background: var(--gift-forest);
+  color: #fffaf7;
+}
+
+.gift-header .inner {
+  width: min(72rem, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.gift-header h2 {
+  color: #fffaf7;
+  font-size: clamp(2.2rem, 3vw, 3.2rem);
+  margin: 0 0 0.5rem;
+}
+
+.gift-header p {
+  max-width: 54ch;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.gift-main {
+  width: min(72rem, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 2rem 0 4rem;
+}
+
+.gift-list {
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.gift-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.promo-card {
+  padding: 1rem;
+  background: var(--gift-card);
+  border-color: rgba(35, 77, 66, 0.2);
+}
+
+.promo-card h3 {
+  margin: 0 0 0.5rem;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.5rem;
+}
+
+.promo-card p {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.cta {
+  margin-top: 1.5rem;
+  background: var(--gift-rose);
+  border-color: transparent;
+  color: #fffaf7;
+  padding: 1.2rem 1.4rem;
+}
+
+.cta p {
+  margin: 0;
+  font-size: 1.12rem;
+}
+
+.site-footer {
+  background: rgba(23, 19, 15, 0.96);
+  color: #f5ead9;
+}
+
+.site-footer .inner {
+  padding: 1.5rem 0 2rem;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .poem-pair {
+    grid-template-columns: 1fr;
+  }
+
+  .poem {
+    border-right: 0;
+    border-bottom: 0.08rem solid rgba(106, 73, 58, 0.35);
+    padding-right: 0;
+    padding-bottom: 1rem;
+  }
+
+  .site-header .inner {
+    align-items: flex-start;
+  }
+
+  .page-intro,
+  .poem-block,
+  .homepage-section,
+  .info-panel {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
