@@ -1,4 +1,4 @@
-# NOTES — <assignment name>
+# NOTES — <Theme Palette>
 
 ## Intent
 A one-page style tile with a theme, four colors, and the proof that each pair is readable according to accessibility guidelines. The theme for the colors should be "a cool girl's literary magazine--elegant, fun, and not too trendy."
