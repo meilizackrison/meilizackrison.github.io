@@ -46,6 +46,14 @@ img {
   text-transform: uppercase;
 }
 
+.masthead h1,
+.masthead h2,
+.masthead h3,
+.masthead .eyebrow,
+.masthead .tagline {
+  color: var(--paper);
+}
+
 h1,
 h2,
 h3 {
