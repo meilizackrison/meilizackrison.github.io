@@ -4,6 +4,8 @@
 The theme for the typography should be "a cool girl's literary magazine--elegant, fun, and not too trendy." The text should be accesible--no cursive, nothing unreadable. 
 
 ## AI use
+I gave it the above theme and then asked it to propose a plan that fit the requirements of the done list. Then I asked it to proceed.
+
 DONE LIST
  sparks/s04-type-scale/ has its own index.html and CSS file, and it’s a new page, not a copy of an earlier Spark.
  The page names its theme and shows the type in use: headings at three levels (h1, h2, h3), a paragraph of body text, a quote, a list, and a link.
