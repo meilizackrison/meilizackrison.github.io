@@ -1,4 +1,4 @@
-# NOTES — <assignment name>
+# NOTES — <box model>
 
 ## Intent
 I want to make a website is for listing the albums for members of boygenius.They are listed below: 
@@ -27,10 +27,12 @@ First I gave the agent my intent and asked it to propose a plan. Then I asked it
 
 
 ## Accepted / changed / rejected
-What I kept from the agent, what I changed, and why.
+The size of my links are 80 x 51 px. 
+
+I kept the structure and then went in and restyled the links (made the hover background color different) and changed the color palette in general. 
 
 ## Dig deeper
-One thing I looked up (MDN link) and what I learned.
+I looked up focus-visible (https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:focus-visible) and learned how we can simoltaneously style things how we want in css while also respecting the user's settings. It was very interesting!
 
 ## Open questions
-What I still don't fully understand.
+It is still a mystery a little bit to me how these boxes are flexible when I zoom but I trust all is well
