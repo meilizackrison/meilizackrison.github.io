@@ -1,11 +1,11 @@
 :root {
   --bg: #f7f1eb;
   --panel: #fffdfb;
-  --ink: #1f2327;
-  --muted: #4b4a4e;
-  --primary: #2f4f5d;
-  --accent: #d77d57;
-  --accent-soft: #f2d7c8;
+  --ink: #000000;
+  --muted: #352a54;
+  --primary: #2e1847;
+  --accent: #a83054;
+  --accent-soft: #f2c8da;
   --line: #c8b7a5;
   --shadow: rgba(19, 25, 32, 0.12);
 }
