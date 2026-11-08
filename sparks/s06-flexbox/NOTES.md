@@ -17,13 +17,13 @@ Toylight - 2026.
 Each campaign should be a card that someone can cycle through if they don't want to read everything. The title and nav on one line, then a row of featured cards that wraps when there isn’t room, each one jumping to its own section further down the page. 
 
 ## AI use
-
+I has the agent generate code using my intent and the done list. Then I asked it to edit it so that it could fit the 3-6 card requirement better.
 
 ## Accepted / changed / rejected
-What I kept from the agent, what I changed, and why.
+I edited the color scheme and also asked it to change the number of cards in order to fit the requirements better.
 
 ## Dig deeper
-One thing I looked up (MDN link) and what I learned.
+I dug deeper into the flex shorthand because I missed this lecture when I was at urgent care and wanted to understand it more. I learned that most properties will be inital, auto, or none. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/flex. 
 
 ## Open questions
-What I still don't fully understand.
+I want to figure out how to prompt the agent better so that this process feels less tedious? I really enjoyed coding by hand so I need to figure out how to bring that enthusiasm to agent assisted coding, and I think the answer lies in my prompting. 
