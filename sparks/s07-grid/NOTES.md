@@ -11,7 +11,7 @@ What is used: I was right about grid template areas keeping the header and foote
 I gave it my intent and asked it to plan a webpage, but I initially forgot to give it the done list which is interesting, I'm normally quite good at that. I also in my initial prompt forgot to ask it to give me strings and for that I am sorry. 
 
 ## Accepted / changed / rejected
-The first round of code had media queries so I needed to get rid of those. Then I also decided to delete the h1 and the random captions around the h1. Then I wanted to expand the gap between the content and the header and the footer, so I changed that.
+The first round of code had media queries so I needed to get rid of those. Then I also decided to delete the h1 and the random captions around the h1. Then I wanted to expand the gap between the content and the header and the footer, so I changed that.Then on feedback checks I learned there was a stray end tag (i got rid of the section because I was no longer using the h1 stuff and also because articles don't need to be nested in sections, and then I forgot to get rid of the end tag).
 
 ## Dig deeper
 I looked up media queries and learned that they help apply the user's styles to the page, and you can decide to only use specific user styles (like hover) on your page. https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries/Using
