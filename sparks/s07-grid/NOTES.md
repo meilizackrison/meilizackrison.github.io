@@ -3,7 +3,9 @@
 ## Intent
 A web page for people choosing between four different bed and breakfasts in Wayne, PA with a list of things to do in Main Line Pennsylvania in a sidebar. Four cards which fit as many columns as the screen allows, the facts sit beside the cards, a header above and a footer below. 
 
-Prediction: we could use grid template areas to organize the header, main, aside, and footer. Then we could style the main to specifically have the 2 columns, I suspect autofit could be a player here. 
+Prediction: we could use grid template areas to organize the header, main, aside, and footer. Then we could style the main to specifically, I suspect autofit could be a player here. 
+
+What is used: I was right about grid template areas keeping the header and footer long but then putting the aside and columns side by side, and it used autofit so the columns would take up all the space. 
  
 ## AI use
 I gave it my intent and asked it to plan a webpage, but I initially forgot to give it the done list which is interesting, I'm normally quite good at that. I also in my initial prompt forgot to ask it to give me strings and for that I am sorry. 
