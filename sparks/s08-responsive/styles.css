@@ -1,0 +1,173 @@
+:root {
+  color-scheme: light;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  color: #151b3b;
+  background: #f8f6fa;
+  --navy: #111a3a;
+  --navy-soft: #253361;
+  --magenta: #8e0052;
+  --magenta-light: #f8e6f0;
+  --surface: #ffffff;
+  --border: #d8cbd7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+header,
+footer {
+  padding: 1.25rem;
+  color: var(--surface);
+  background: var(--navy);
+  border-top: 0.35rem solid var(--magenta);
+  border-radius: 0.75rem;
+}
+
+header {
+  margin-bottom: 1rem;
+}
+
+header h1 {
+  margin-top: 0;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+nav a {
+  padding: 0.4rem 0.7rem;
+  color: var(--surface);
+  border: 1px solid #f2a5d2;
+  border-radius: 0.35rem;
+}
+
+a {
+  color: var(--magenta);
+}
+
+a:focus-visible {
+  outline: 3px solid var(--magenta);
+  outline-offset: 3px;
+}
+
+nav a:focus-visible {
+  outline-color: #f2a5d2;
+}
+
+main,
+aside {
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+}
+
+main {
+  background: var(--surface);
+}
+
+main h2 {
+  color: var(--navy);
+  border-bottom: 0.2rem solid var(--magenta);
+  padding-bottom: 0.4rem;
+}
+
+aside {
+  margin-top: 1rem;
+  background: var(--magenta-light);
+  border-left: 0.4rem solid var(--magenta);
+}
+
+aside h3 {
+  margin-top: 0;
+  color: var(--navy);
+}
+
+.table-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+}
+
+table {
+  width: 100%;
+  min-width: 42rem;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+caption {
+  padding: 0.75rem;
+  color: var(--surface);
+  background: var(--navy-soft);
+  font-weight: 700;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 0.7rem;
+  border-bottom: 1px solid var(--border);
+}
+
+thead th {
+  color: var(--surface);
+  background: var(--navy);
+}
+
+tbody th {
+  color: var(--navy);
+  background: var(--magenta-light);
+}
+
+tbody tr:last-child th,
+tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+footer {
+  margin-top: 1rem;
+}
+
+@media (min-width: 50em) {
+  body {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 16rem;
+    grid-template-areas:
+      "header header"
+      "main   aside"
+      "footer footer";
+    gap: 1rem;
+  }
+
+  aside {
+    margin-top: 0;
+  }
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+aside {
+  grid-area: aside;
+}
+
+footer {
+  grid-area: footer;
+}
