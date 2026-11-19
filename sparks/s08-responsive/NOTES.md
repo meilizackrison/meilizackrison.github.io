@@ -15,8 +15,7 @@ I then gave the agent my done list and my intent with the request to style it us
 I kept everything from the agent (container styling, font sizing and typography, adding link to the hub). I handwrote the base code so I could understand it better and to stay more engaged while completing the assignment. 
 
 ## Dig deeper
-One thing I looked up (MDN link) and what I learned.
+I looked up media queries (https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries/Using) and learned that you can use these guys to target a printer if you so desired, which I don't but it was interesting. 
 
 ## Open questions
-What I still don't fully understand.
-
+Would there be any point in styling for a fridge or an apple watch? Like what about styling for those stupid meta glasses? When the hologram tech revolution comes, will html develop for that? 
