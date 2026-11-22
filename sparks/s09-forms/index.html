@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Friendsgiving RSVP</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Friendsgiving RSVP</h1>
+  </header>
+
+  <main>
+    <form action="thanks.html" method="get">
+      <div class="field">
+        <label for="name">Name (required)</label>
+        <input id="name" name="name" type="text" autocomplete="name" required>
+      </div>
+
+      <div class="field">
+        <label for="email">Email (required)</label>
+        <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-hint">
+        <p class="hint" id="email-hint">An address like name@example.com.</p>
+      </div>
+
+      <div class="field">
+        <label for="side">Dessert or side you would like to bring</label>
+        <input id="side" name="side" type="text" autocomplete="off">
+      </div>
+
+      <fieldset>
+        <legend>What dietary restrictions do you have? Check all that apply</legend>
+        <div class="choice">
+          <input id="gluten-free" name="restrictions" type="checkbox" value="gluten-free">
+          <label for="gluten-free">Gluten free</label>
+        </div>
+        <div class="choice">
+          <input id="vegetarian" name="restrictions" type="checkbox" value="vegetarian">
+          <label for="vegetarian">Vegetarian</label>
+        </div>
+        <div class="choice">
+          <input id="vegan" name="restrictions" type="checkbox" value="vegan">
+          <label for="vegan">Vegan</label>
+        </div>
+        <div class="choice">
+          <input id="nut-free" name="restrictions" type="checkbox" value="nut-free">
+          <label for="nut-free">Nut free</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>When will you arrive?</legend>
+        <div class="choice">
+          <input type="radio" id="6pm" name="arrival" value="6pm">
+          <label for="6pm">6:00 PM</label>
+        </div>
+        <div class="choice">
+          <input type="radio" id="7pm" name="arrival" value="7pm">
+          <label for="7pm">7:00 PM</label>
+        </div>
+        <div class="choice">
+          <input type="radio" id="8pm" name="arrival" value="8pm">
+          <label for="8pm">8:00 PM</label>
+        </div>
+      </fieldset>
+
+      <button type="submit">Send RSVP</button>
+    </form>
+  </main>
+</body>
+</html>

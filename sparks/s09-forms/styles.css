@@ -1,0 +1,97 @@
+:root {
+  color-scheme: light;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  color: #1f2933;
+  background-color: #f7f4ef;
+}
+
+body {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+form {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.field {
+  display: grid;
+  gap: 0.35rem;
+}
+
+label,
+legend {
+  font-weight: 700;
+}
+
+input {
+  padding: 0.65rem;
+  border: 2px solid #6b7280;
+  border-radius: 0.25rem;
+  background: #ffffff;
+  color: #1f2933;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  width: 1.1rem;
+  height: 1.1rem;
+  margin: 0;
+  accent-color: #285a46;
+}
+
+fieldset {
+  display: grid;
+  gap: 0.65rem;
+  border: 2px solid #6b7280;
+  border-radius: 0.25rem;
+  padding: 1rem;
+}
+
+.choice {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.choice label {
+  font-weight: 400;
+}
+
+.hint {
+  margin: 0;
+  color: #4b5563;
+}
+
+input:user-invalid {
+  border-color: #a11d1d;
+}
+
+input:user-invalid + .hint {
+  color: #a11d1d;
+  font-weight: 700;
+}
+
+input:user-invalid + .hint::before {
+  content: "Check this: ";
+}
+
+button {
+  justify-self: start;
+  padding: 0.75rem 1rem;
+  border: 2px solid #285a46;
+  border-radius: 0.25rem;
+  background: #285a46;
+  color: #ffffff;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline: 3px solid #b45309;
+  outline-offset: 3px;
+}
