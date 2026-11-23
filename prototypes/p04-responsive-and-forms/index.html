@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Vote on your favorite DC Superhero, nominate your favorite sidekicks.">
+    <title>DC Superhero Voting</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>DC Superhero Voting</h1>
+    </header>
+
+    <main class="page-layout">
+      <aside class="voting-panel">
+        <h2>Choose a hero and nominate a sidekick.</h2>
+        <p>Find out which hero is the favorite, decide which sidekick gets to join them.</p>
+      </aside>
+
+      <section class="form-panel" aria-labelledby="vote-heading">
+        <h2 id="vote-heading">Your vote</h2>
+        <form action="thanks.html" method="get">
+          <div class="form-field">
+            <label for="name">Name (required)</label>
+            <input id="name" name="name" type="text" autocomplete="name" required aria-describedby="name-error">
+            <p class="field-error" id="name-error">Enter your name.</p>
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email (required)</label>
+            <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-hint email-error">
+            <p class="hint" id="email-hint">An address like name@example.com.</p>
+            <p class="field-error" id="email-error">Enter a valid email address.</p>
+          </div>
+
+          <fieldset class="hero-options">
+            <legend>Favorite DC superhero (required)</legend>
+            <div class="radio-option">
+              <input id="superman" name="hero" type="radio" value="superman" required>
+              <label for="superman">Superman</label>
+            </div>
+            <div class="radio-option">
+              <input id="batman" name="hero" type="radio" value="batman">
+              <label for="batman">Batman</label>
+            </div>
+            <div class="radio-option">
+              <input id="wonder-woman" name="hero" type="radio" value="wonder-woman">
+              <label for="wonder-woman">Wonder Woman</label>
+            </div>
+            <div class="radio-option">
+              <input id="the-flash" name="hero" type="radio" value="the-flash">
+              <label for="the-flash">The Flash</label>
+            </div>
+            <p class="field-error">Choose a superhero.</p>
+          </fieldset>
+
+          <div class="form-field">
+            <label for="sidekick">Sidekick to nominate</label>
+            <input id="sidekick" name="sidekick" type="text" autocomplete="off">
+          </div>
+
+          <div class="form-field">
+            <label for="reason">Why is this your favorite sidekick?</label>
+            <textarea id="reason" name="reason" rows="4"></textarea>
+          </div>
+
+          <button type="submit">Submit vote</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Thank you for voting.</p>
+    </footer>
+  </body>
+</html>
