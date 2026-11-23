@@ -10,7 +10,7 @@ I looked up the list of autocomplete values and found address and telephone numb
 I wrote the base code with the written copy myself and then asked the agent to style it while keeping the intent and done list in mind. 
 
 ## Accepted / changed / rejected
-I accepted it's blue color palette and styling but checked it for contrast and also asked it to add a button back to the homepage on the main form as well as to restyle the telephone number section so it matches. 
+I accepted it's blue color palette and styling but checked it for contrast and also asked it to restyle the telephone number section so it matches. 
 
 ## Dig deeper
 I looked up the complete list of autocomplete values and found that they even had an option to differentiate billing zip code vs residential zip code. 
