@@ -82,6 +82,7 @@ button {
 
 input[type="text"],
 input[type="email"],
+input[type="tel"],
 textarea {
   min-height: 44px;
   border: 0.125rem solid #617087;
